@@ -8,7 +8,7 @@ export const Sidebar = () => {
 
 
     return (
-        <Flex justifyContent={"center"} boxShadow={"0px 0px 10px black"} position={"fixed"} py={"50px"} bgColor={"#1a1a1a"} w={"150px"} h={"100vh"}>
+        <Flex zIndex={"9999"} justifyContent={"center"} boxShadow={"0px 0px 10px black"} position={"fixed"} py={"50px"} bgColor={"#1a1a1a"} w={"150px"} h={"100vh"}>
             <Box w={"100%"}>
                 <Flex mb={"250px"} justifyContent={"center"} fontSize={"30px"} textShadow={"0px 0px 10px white"} fontWeight={"thin"} color={"#b4b4b4"}>
                     Logo

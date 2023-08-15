@@ -1,7 +1,7 @@
 import { ChakraProvider } from "@chakra-ui/react";
-import { Home } from "./pages/home";
-import { About } from "./pages/aboutMe";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { About } from "./pages/aboutMe";
+import { Home } from "./pages/home";
 
 function App() {
   const router = createBrowserRouter([

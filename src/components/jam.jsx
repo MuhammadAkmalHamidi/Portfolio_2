@@ -11,6 +11,6 @@ export const Waktu = () => {
         return () => clearInterval(interval)
     },[])
     return(
-        <Flex justifyContent={"center"} color={"#b4b4b4"} textShadow={"0px 0px 3px white"} fontSize={"25px"} fontFamily={"Rajdhani"}>  {time.toLocaleTimeString()} </Flex>
+        <Flex justifyContent={"center"} color={"yellow.500"} textShadow={"0px 0px 5px gold"} fontSize={"25px"} fontFamily={"Rajdhani"}>  {time.toLocaleTimeString()} </Flex>
     )
 }
